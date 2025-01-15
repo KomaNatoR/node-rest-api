@@ -1,4 +1,12 @@
-import HttpError from "./HttpError.js";
+// const Joi = require("joi");
+const HttpError = require("./HttpError");
+
+
+// const schema = Joi.object({
+//     name: Joi.string().required(),
+//     email: "name@name.com",
+//     phone: "(000) 000-0000",
+// })
 
 const validateBody = (schema) => {
   const func = (req, _, next) => {
@@ -11,5 +19,6 @@ const validateBody = (schema) => {
 
   return func;
 };
+
 
 export default validateBody;
