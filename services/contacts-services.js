@@ -26,7 +26,7 @@ async function add({name, email, phone}) {
     phone,
   }
   contacts.push(newContact);
-  await fs.writeFile(contactsPath, JSON.stringify(contacts,null,2));
+  await fs.writeFile(contactsPath, JSON.stringify(contacts, null, 2));
   return newContact;
 }
 const updateById = async (id, data) => {
