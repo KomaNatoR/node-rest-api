@@ -1,0 +1,16 @@
+[
+  {
+    "id": "order_20250118_0001",
+    "name": "Galushko Sashko",
+    "phone": "(097)555-5555",
+    "items": [
+      {"name": "butter", "quantity": 1, "price": 200},
+      {"name": "chees-first", "quantity": 2, "price": 400},
+      {"name": "chees-second", "quantity": 2, "price": 400}
+    ],
+    "date": "2025-01-18T09:59:00Z",
+    "total": 1000,
+    "status": "pending",
+    "delivery": {"method": "courier", "address": "Vinnytsia, Main St. 10"}
+  }
+]
